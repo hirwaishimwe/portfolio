@@ -1,3 +1,5 @@
+/* Contact.scss */
+
 .contact_wrapper svg {
   font-size: 1em;
   vertical-align: middle;
@@ -7,10 +9,12 @@
 .contact-form {
   padding-top: 20px;
 
+  /* Button Styles */
   button {
     float: right;
     background-color: white;
     color: #050f0b;
+    transition: background-color 0.3s, color 0.3s;
   }
 
   button:hover {
@@ -18,8 +22,47 @@
     color: white;
   }
 
-  fieldset {
+  /* Remove fieldset styles to prevent conflicts with MUI */
+  /* fieldset {
     background-color: white;
+  } */
+
+  /* Light Mode Styles */
+  .main-container.light-mode & {
+    .MuiInputBase-input {
+      color: #0d1116 !important; /* Dark text on light background */
+    }
+
+    .MuiInputLabel-root {
+      color: #0d1116 !important; /* Dark label on light background */
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border-color: #0d1116 !important; /* Dark border */
+    }
+
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+      border-color: #5000ca !important; /* Primary color on focus */
+    }
+  }
+
+  /* Dark Mode Styles */
+  .main-container.dark-mode & {
+    .MuiInputBase-input {
+      color: #ffffff !important; /* White text on dark background */
+    }
+
+    .MuiInputLabel-root {
+      color: #ffffff !important; /* White label on dark background */
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+      border-color: #ffffff !important; /* White border */
+    }
+
+    .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+      border-color: #5000ca !important; /* Primary color on focus */
+    }
   }
 }
 
@@ -45,4 +88,30 @@ form {
 .body-form {
   width: 100% !important;
   margin-bottom: 15px !important;
+}
+
+/* Ensure buttons adapt to theme */
+.main-container.light-mode .contact-form button {
+  background-color: white;
+  color: #050f0b;
+
+  &:hover {
+    background-color: #5000ca;
+    color: white;
+  }
+}
+
+.main-container.dark-mode .contact-form button {
+  background-color: white;
+  color: #050f0b;
+
+  &:hover {
+    background-color: #5000ca;
+    color: white;
+  }
+}
+
+/* Optional: Adjust the background of the contact form in dark mode */
+.main-container.dark-mode .contact-form {
+  background-color: #0d1116; /* Ensure the form background matches the overall dark theme */
 }
