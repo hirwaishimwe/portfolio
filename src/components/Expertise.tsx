@@ -31,11 +31,11 @@ const labelsSecond = [
 
 const labelsThird = [
     "Machine Learning",
-    "OpenAI APIs",
+    "Deep Learning",
     "Pandas",
+    "PyTorch",
     "TensorFlow",
-    "Scikit-learn",
-    "Streamlit"
+    "Scikit-learn"
 ];
 
 function Expertise() {
@@ -55,7 +55,7 @@ function Expertise() {
                         ))}
                     </div>
                 </div>
-
+                {/*
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>DevOps & Automation</h3>
@@ -67,11 +67,11 @@ function Expertise() {
                         ))}
                     </div>
                 </div>
-
+                */}
                 <div className="skill">
                     <FontAwesomeIcon icon={faCloudflare} size="3x"/>
                     <h3>AI & Data Solutions</h3>
-                    <p>With professional experience in AI, I have developed machine learning models and solutions to empower intelligent decision-making. My projects often integrate APIs and frameworks for data-driven applications.</p>
+                    <p>With Academic experience in AI, I have developed machine learning models and solutions to empower intelligent decision-making. My projects often integrate APIs and frameworks for data-driven applications.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
@@ -79,6 +79,7 @@ function Expertise() {
                         ))}
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
