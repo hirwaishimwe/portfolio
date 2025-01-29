@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6633b8c9.css",
+    "main.js": "/portfolio/static/js/main.4421a660.js",
+    "static/js/453.bb4dae7d.chunk.js": "/portfolio/static/js/453.bb4dae7d.chunk.js",
+    "static/media/rwuxray.png": "/portfolio/static/media/rwuxray.0f31de97f1b418be38bc.png",
+    "static/media/parkingapp.png": "/portfolio/static/media/parkingapp.7d5bdc2728eb292d54ba.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.6766bee10f0dc1498bd3.png",
+    "static/media/radiologyapp.png": "/portfolio/static/media/radiologyapp.203dd593d0ccb96e15a0.png",
+    "static/media/fmvtool.png": "/portfolio/static/media/fmvtool.3c58d950861b2c120d9c.png",
+    "static/media/bg-light.png": "/portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/hirwa.jpeg": "/portfolio/static/media/hirwa.06b643857cde7af4a058.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.6633b8c9.css.map": "/portfolio/static/css/main.6633b8c9.css.map",
+    "main.4421a660.js.map": "/portfolio/static/js/main.4421a660.js.map",
+    "453.bb4dae7d.chunk.js.map": "/portfolio/static/js/453.bb4dae7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6633b8c9.css",
+    "static/js/main.4421a660.js"
+  ]
+}
