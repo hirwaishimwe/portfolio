@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faCloudflare } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faCloudflare } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
@@ -17,7 +17,7 @@ const labelsFirst = [
     "PostgreSQL",
     "Redis"
 ];
-
+{/*
 const labelsSecond = [
     "Git",
     "GitHub",
@@ -28,7 +28,7 @@ const labelsSecond = [
     "Linux",
     "Firebase"
 ];
-
+*/}
 const labelsThird = [
     "Machine Learning",
     "Deep Learning",
